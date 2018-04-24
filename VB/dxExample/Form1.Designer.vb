@@ -26,8 +26,8 @@
             Me.myGridControl1 = New MyXtraGrid.MyGridControl()
             Me.myGridView1 = New MyXtraGrid.MyGridView()
             Me.formAssistant1 = New DevExpress.XtraBars.FormAssistant()
-            DirectCast(Me.myGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.myGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.myGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.myGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' myGridControl1
@@ -53,8 +53,8 @@
             Me.Controls.Add(Me.myGridControl1)
             Me.Name = "Form1"
             Me.Text = "Form1"
-            DirectCast(Me.myGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.myGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.myGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.myGridView1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
 
         End Sub
